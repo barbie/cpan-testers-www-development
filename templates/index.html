@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb">
+<head>
+    <title>CPAN Testers Development</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Language" content="en-gb" />
+
+    <meta name="description" content="CPAN Testers development tools and data files"/>
+    <meta name="keywords"    content="perl, cpan, test, testers, open source"/> 
+    <meta name="author"      content="Barbie"/> 
+    <meta name="copyright"   content="Copyright (C) 2008,2009 CPAN Testers" />
+
+    <link rel="stylesheet" type="text/css" media="screen,projection,print" href="/css/layout2_setup.css" />
+    <link rel="stylesheet" type="text/css" media="screen,projection,print" href="/css/layout2_text.css" />
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-1826389-17");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</head>
+
+<body>
+
+  <!-- Main Page Container -->
+  <div class="page-container">
+
+    <!-- For alternative headers START PASTE here -->
+
+    <!-- A. HEADER -->      
+    <div class="header">
+      
+      <!-- A.1 HEADER TOP -->
+      <div class="header-middle">
+
+        <!-- Sitelogo and sitename -->
+        <div class="sitename">
+          <h1><a href="/">CPAN Testers Development</a></h1>
+          <h3>devel.cpantesters.org</h3>
+          <h2>Welcome</h2>
+        </div>
+
+        [% INCLUDE "box-sites.html" %]
+      </div>
+
+      <!-- A.4 HEADER BREADCRUMBS -->
+
+      <!-- Breadcrumbs -->
+      <div class="header-breadcrumbs">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li>Welcome</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- B. MAIN -->
+    <div class="main">
+
+      <!-- B.1 MAIN NAVIGATION -->
+      <div class="main-navigation">
+
+        <!-- Navigation Level 3 -->
+        <div class="round-border-topright"></div>
+
+            <h1>Menu</h1>
+            <ul>
+                <li><a href="/">Home</a></li>
+            </ul>
+            <ul>
+            <li><a href='http://stats.cpantesters.org/cpanmail.html'>Find A Tester</a></li>
+            </ul>
+
+        </div>
+
+      <!-- B.1 MAIN CONTENT -->
+      <div class="main-content">
+
+        <!-- Pagetitle -->
+        <h1 class="pagetitle">Introduction</h1>
+        <div class="column1-unit">
+
+          <h2>A brief introduction to the development site</h2>
+          <p>This site has been created to store the data files and additional tools used to create the CPAN Testers family of websites.</p>
+          <p>Please note that although this site is dynamically generated, only the database file sizes are updated. The links below are generic, 
+          and will access the appropriate files as they are updated.</p>
+
+          <h1>CPAN Testers 'cpanstats' Database Generator</h1>
+          <p>Downloads for the CPAN Testers 'cpanstats' database</p>
+          <p>The following data files and tools are provided for use in building and expanding the data storage, used
+          by the CPAN Testers family of websites, containing the reports metadata as posted to the cpan-testers
+          mailing list by the testers. If you have suggestions for improving the code or databases, please use the
+          <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-Data-Generator">RT queue</a>. 
+          Uncompressed size of the SQLite database is <b>[% CPANSTATSDB %]</b>.</p>
+          <ul>
+            <li><a href="http://search.cpan.org.dist/CPAN-Testers-Data-Generator">CPAN-Testers-Data-Generator</a> (<a href="https://github.com/barbie/cpan-testers-data-generator/tree">GitHub</a>)</li>
+            <li>Latest SQLite database: <a href="/cpanstats.db.gz">Gzip</a> (<b>[% CPANSTATSGZ %]</b>) / <a href="/cpanstats.db.bz2">Bzip2</a> (<b>[% CPANSTATSBZ %]</b>)</li>
+            <li><a href="http://search.cpan.org.dist/ORDB-CPANTesters">ORDB-CPANTesters</a></li>
+          </ul>
+
+          <h1>CPAN Testers 'uploads' Database Generator</h1>
+          <p>Downloads for the CPAN Testers 'uploads' database</p>
+          <p>The following data files and tools are provided for use in building and expanding the data storage, used
+          by the CPAN Testers family of websites, containing the uploads metadata as posted to the cpan-uploads
+          mailing list by PAUSE. If you have suggestions for improving the code or databases, please use the
+          <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-Data-Uploads">RT queue</a>. 
+          Uncompressed size of the SQLite database is <b>[% UPLOADSDB %]</b>.</p>
+          <ul>
+            <li><a href="http://search.cpan.org.dist/CPAN-Testers-Data-Uploads">CPAN-Testers-Data-Uploads</a> (<a href="https://github.com/barbie/cpan-testers-data-uploads/tree">GitHub</a>)</li>
+            <li>Latest SQLite database: <a href="/uploads/uploads.db.gz">Gzip</a> (<b>[% UPLOADSSQLGZ %]</b>) / <a href="/uploads/uploads.db.bz2">Bzip2</a> (<b>[% UPLOADSSQLBZ %]</b>)</li>
+            <li>Latest CSV database:    <a href="/uploads/uploads.csv.gz">Gzip</a> (<b>[% UPLOADSCSVGZ %]</b>) / <a href="/uploads/uploads.csv.bz2">Bzip2</a> (<b>[% UPLOADSCSVBZ %]</b>)</li>
+            <li><a href="http://search.cpan.org.dist/ORDB-CPANUploads">ORDB-CPANUploads</a></li>
+          </ul>
+
+          <h1>CPAN Testers Statistics</h1>
+          <p>Downloads for the CPAN Testers Statistics website</p>
+          <p>The following data files and tools are provided for use in building and expanding the website. If you have
+          suggestions for improving the website, please use the
+          <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-WWW-Statistics">RT queue</a>.</p>
+          <ul>
+            <li><a href="http://search.cpan.org.dist/CPAN-Testers-WWW-Statistics">CPAN-Testers-WWW-Statistics</a> (<a href="https://github.com/barbie/cpan-testers-www-statistics/tree">GitHub</a>)</li>
+            <li><a href="/cpanstats-data-latest.tar.gz">cpanstats-data-latest.tar.gz</a></li>
+          </ul>
+
+          <h1>CPAN Testers Reports</h1>
+          <p>Downloads for the CPAN Testers Reports website</p>
+          <p>The following data files and tools are provided for use in building and expanding the website. If you have
+          suggestions for improving the website, please use the
+          <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-WWW-Testers">RT queue</a>.</p>
+          <ul>
+            <li><a href="http://search.cpan.org.dist/CPAN-WWW-Testers">CPAN-WWW-Testers</a> (<a href="https://github.com/barbie/cpan-www-testers/tree">GitHub</a>)</li>
+          </ul>
+
+          <h1>CPAN Testers Common Code</h1>
+          <p>Downloads for commonly used code required by the CPAN Testers applications listed above</p>
+          <p>The following package files are provided for use in building and expanding the CPAN Testers code base. If you have
+          suggestions for improving the codebase, please use the respective bug trackers listed below.</p>
+          <ul>
+            <li><a href="http://search.cpan.org.dist/CPAN-Testers-Common-Article">CPAN-Testers-Common-Article</a> (<a href="https://github.com/barbie/cpan-testers-common-article/tree">GitHub</a>) -
+                <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-Common-Article">RT queue</a></li>
+            <li><a href="http://search.cpan.org.dist/CPAN-Testers-Common-DBUtils">CPAN-Testers-Common-DBUtils</a> (<a href="http://github.com/barbie/cpan-testers-common-dbutils/tree">GitHub</a>) -
+                <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-Common-DBUtils">RT queue</a></li>
+          </ul>
+ 
+        </div>
+        <hr class="clear-contentunit" />
+
+      </div>
+    </div>
+      
+    <!-- C. FOOTER AREA -->      
+    <div class="footer">
+      <p>
+      The CPAN Testers server is supported and funded by <a href="http://birmingham.pm.org">Birmingham Perl Mongers</a>.<br />
+      CPAN Testers Development v2.00.
+      &copy; 2008-2009 CPAN Testers. Comments and design patches to barbie@cpan.org.<br />
+      
+      The CPAN Testers Family: 
+      <a href="http://blog.cpantesters.org">Blog</a>          &#8226;
+      <a href="http://www.cpantesters.org">Reports</a>        &#8226;
+      <a href="http://wiki.cpantesters.org">Wiki</a>          &#8226;
+      <a href="http://stats.cpantesters.org">Statistics</a>   &#8226;
+      <a href="http://pass.cpantesters.org">PASS Matrix</a>   &#8226;
+      <a href="http://prefs.cpantesters.org">Preferences</a>  &#8226;
+      <a href="http://devel.cpantesters.org">Development</a>  &#8226;
+      <a href="http://deps.cpantesters.org">Dependencies</a>  &#8226;
+      <a href="http://matrix.cpantesters.org">Matrix</a>
+      </p>
+    </div>
+
+  </div> 
+
+</body>
+</html>
