@@ -1,5 +1,7 @@
 Changes for the CPAN Testers Development website
 
+        - added META.yml & META.json.
+
 2.06    18/08/2011
 	- revised banner logo image by Jon 'JJ' Allen.
 	- added rel="nofollow" to database downloads.

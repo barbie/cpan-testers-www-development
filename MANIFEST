@@ -3,6 +3,8 @@ Changes
 data/settings-example.ini
 Makefile.PL
 MANIFEST
+META.json
+META.yml
 templates/box-sites.html
 templates/css/layout2_setup.css
 templates/css/layout2_text.css
@@ -24,4 +26,3 @@ templates/images/layout/bg_main_withnav_reverse.jpg
 templates/images/layout/bg_main_withoutnav.jpg
 templates/index.html
 templates/quote.html
-META.yml                                 Module meta-data (added by MakeMaker)
