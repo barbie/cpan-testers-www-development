@@ -1,7 +1,7 @@
 use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME           	=> 'cpandevel',
-    VERSION		   	=> '2.04',
+    VERSION		   	=> '2.05',
     PREREQ_PM      	=> { 
       Config::IniFiles  => 0,
       File::Basename    => 0,

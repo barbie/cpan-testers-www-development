@@ -70,7 +70,7 @@ sub make_pages {
 
     for($options{cfg}->Parameters('LOCATIONS')) {
         my $source = $options{cfg}->val('LOCATIONS',$_);
-        $tvars{$_} = format_bytes((-s $source));
+        $tvars{$_} = -f $source ? format_bytes((-s $source)) : 0;
     }
 
     $tvars{VERSION} = $VERSION;
