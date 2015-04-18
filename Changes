@@ -1,5 +1,11 @@
 Changes for the CPAN Testers Development website
 
+2.06    18/08/2011
+	- revised banner logo image by Jon 'JJ' Allen.
+	- added rel="nofollow" to database downloads.
+	- added links for Wiki and Blog packages.
+	- added intro for Devel and Preferences packages.
+
 2.05    24/09/2010
 	- added Metabase and Labyrinth links.
 	- repositioned site boxes to avoid text and logo clashing.
