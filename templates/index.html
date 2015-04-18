@@ -105,7 +105,7 @@ pageTracker._trackPageview();
           <p>Please note that although this site is dynamically generated, only the database file sizes are updated. The links below are generic, 
           and will access the appropriate files as they are updated.</p>
 
-          <h1>CPAN Testers 'cpanstats' Database Generator</h1>
+          <h1>CPAN Testers Statistics Database Generator</h1>
           <p>Downloads for the CPAN Testers 'cpanstats' database</p>
           <p>The following data files and tools are provided for use in building and expanding the data storage, used
           by the CPAN Testers family of websites, containing the reports metadata as posted to the cpan-testers
@@ -118,7 +118,7 @@ pageTracker._trackPageview();
             <li><a href="http://search.cpan.org.dist/ORDB-CPANTesters">ORDB-CPANTesters</a></li>
           </ul>
 
-          <h1>CPAN Testers 'uploads' Database Generator</h1>
+          <h1>CPAN Testers Upload Database Generator</h1>
           <p>Downloads for the CPAN Testers 'uploads' database</p>
           <p>The following data files and tools are provided for use in building and expanding the data storage, used
           by the CPAN Testers family of websites, containing the uploads metadata as posted to the cpan-uploads
@@ -130,6 +130,19 @@ pageTracker._trackPageview();
             <li>Latest SQLite database: <a href="/uploads/uploads.db.gz">Gzip</a> (<b>[% UPLOADSSQLGZ %]</b>) / <a href="/uploads/uploads.db.bz2">Bzip2</a> (<b>[% UPLOADSSQLBZ %]</b>)</li>
             <li>Latest CSV database:    <a href="/uploads/uploads.csv.gz">Gzip</a> (<b>[% UPLOADSCSVGZ %]</b>) / <a href="/uploads/uploads.csv.bz2">Bzip2</a> (<b>[% UPLOADSCSVBZ %]</b>)</li>
             <li><a href="http://search.cpan.org.dist/ORDB-CPANUploads">ORDB-CPANUploads</a></li>
+          </ul>
+
+          <h1>CPAN Testers Release Summary Database Generator</h1>
+          <p>Downloads for the CPAN Testers 'release' database</p>
+          <p>The following data files and tools are provided for use in building the data storage, used
+          by the CPAN Testers family of websites, containing the release summary metadata. If you have suggestions 
+          for improving the code or databases, please use the
+          <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-Data-Release">RT queue</a>. 
+          Uncompressed size of the SQLite database is <b>[% RELEASEDB %]</b>.</p>
+          <ul>
+            <li><a href="http://search.cpan.org.dist/CPAN-Testers-Data-Release">CPAN-Testers-Data-Release</a> (<a href="https://github.com/barbie/CPAN-Testers-Data-Release/tree">GitHub</a>)</li>
+            <li>Latest SQLite database: <a href="/release/release.db.gz">Gzip</a> (<b>[% RELEASEGZ %]</b>) / <a href="/release/release.db.bz2">Bzip2</a> (<b>[% RELEASEBZ %]</b>)</li>
+            <li><a href="http://search.cpan.org.dist/ORDB-CPANRelease">ORDB-CPANRelease</a></li>
           </ul>
 
           <h1>CPAN Testers Statistics</h1>
@@ -144,11 +157,30 @@ pageTracker._trackPageview();
 
           <h1>CPAN Testers Reports</h1>
           <p>Downloads for the CPAN Testers Reports website</p>
-          <p>The following data files and tools are provided for use in building and expanding the website. If you have
-          suggestions for improving the website, please use the
+          <p>The following data files and tools were used in building and expanding the old Reports website. The code
+          for building the current website is not currently available. This will change as soon as I have time to
+          properly package all the moving parts. However, if you have suggestions for improving the website, please use the
           <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-WWW-Testers">RT queue</a>.</p>
           <ul>
             <li><a href="http://search.cpan.org.dist/CPAN-WWW-Testers">CPAN-WWW-Testers</a> (<a href="https://github.com/barbie/cpan-www-testers/tree">GitHub</a>)</li>
+          </ul>
+
+          <h1>CPAN Testers Reports Parser</h1>
+          <p>Downloads for the CPAN Testers reports data parser</p>
+          <p>The following data files and tools are used to parse the YAML and JSON files stored on the Reports website.
+          If you have suggestions for improving the code, please use the
+          <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-WWW-Reports-Parser">RT queue</a>.</p>
+          <ul>
+            <li><a href="http://search.cpan.org.dist/CPAN-Testers-WWW-Reports-Parser">CPAN-Testers-WWW-Reports-Parser</a> (<a href="https://github.com/barbie/CPAN-Testers-WWW-Reports-Parser/tree">GitHub</a>)</li>
+          </ul>
+
+          <h1>CPAN Testers Reports Mailer</h1>
+          <p>Downloads for the CPAN Testers reports summary mailer</p>
+          <p>The following data files and tools are used to parse the reports data and mail the summaries to authors.
+          If you have suggestions for improving the code, please use the
+          <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-WWW-Reports-Mailer">RT queue</a>.</p>
+          <ul>
+            <li><a href="http://search.cpan.org.dist/CPAN-Testers-WWW-Reports-Mailer">CPAN-Testers-WWW-Reports-Mailer</a> (<a href="https://github.com/barbie/CPAN-Testers-WWW-Reports-Mailer/tree">GitHub</a>)</li>
           </ul>
 
           <h1>CPAN Testers Common Code</h1>
@@ -172,7 +204,7 @@ pageTracker._trackPageview();
     <div class="footer">
       <p>
       The CPAN Testers server is supported and funded by <a href="http://birmingham.pm.org">Birmingham Perl Mongers</a>.<br />
-      CPAN Testers Development v2.01.
+      CPAN Testers Development v[% VERSION %].
       &copy; 2008-2009 CPAN Testers. Comments and design patches to barbie@cpan.org.<br />
       
       The CPAN Testers Family: 

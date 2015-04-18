@@ -2,7 +2,7 @@
 use strict;
 $|++;
 
-my $VERSION = '0.01';
+my $VERSION = '2.02';
 
 #----------------------------------------------------------------------------
 
@@ -72,6 +72,8 @@ sub make_pages {
         my $source = $options{cfg}->val('LOCATIONS',$_);
         $tvars{$_} = format_bytes((-s $source));
     }
+
+    $tvars{VERSION} = $VERSION;
 
     my %config = (                          # provide config info
         RELATIVE        => 1,

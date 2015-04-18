@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                cpandevel
-version:             2.01
+version:             2.02
 abstract:            CPAN Testers Development
 license:             ~
 author:              

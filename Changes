@@ -1,5 +1,11 @@
 Changes for the CPAN Testers Development website
 
+2.02	18/07/2009
+	- added Release Summary database entry.
+	- added Reports Parser entry.
+	- added Reports Mailer entry.
+	- added VERSION template variable based on script version.
+
 2.01	03/06/2009
 	- added attributions to HTML.
 	- fixed CSS issues for IE (thanks to JJ).
