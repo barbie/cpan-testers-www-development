@@ -1,7 +1,11 @@
 Changes for the CPAN Testers Development website
 
-2.00	current
-	- redesign, based on a design by Wolfman.
+2.01	03/06/2009
+	- added attributions to HTML.
+	- fixed CSS issues for IE (thanks to JJ).
+
+2.00	22/05/2009
+	- redesign, based on a design by Wolfgang.
 
 1.00	01/09/2008
 	- First released version, based on a design by Arcsin.
