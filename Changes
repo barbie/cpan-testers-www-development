@@ -1,6 +1,8 @@
 Changes for the CPAN Testers Development website
 ================================================
 
+        - paths updated for github, and switches from s.p.o to metacpan.
+
 2.07    2015-04-18
         - added LICENSE, META.yml & META.json.
         - reworked Makefile.PL for clarity.
