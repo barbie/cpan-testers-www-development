@@ -54,17 +54,16 @@ $Number::Format::GIGA_SUFFIX = ' GB';
 # -------------------------------------
 # Program
 
-sub main {
-    init_options();
-    make_pages();
-}
-
 # -------------------------------------
 # Subroutines
 
 =head1 FUNCTIONS
 
 =over 4
+
+=item main
+
+Main control routine. Calls init_options and make_pages.
 
 =item init_options
 
@@ -75,6 +74,11 @@ Prepare command line options
 Create all the appropriate pages for the website.
 
 =cut
+
+sub main {
+    init_options();
+    make_pages();
+}
 
 sub make_pages {
     my %tvars;
