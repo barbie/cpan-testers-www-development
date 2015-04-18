@@ -1,8 +1,8 @@
 Changes for the CPAN Testers Development website
 ================================================
 
-        - added META.yml & META.json.
-        - reworked Makefile.PL.
+        - added LICENSE, META.yml & META.json.
+        - reworked Makefile.PL for clarity.
         - change file dates changed to meet W3CDTF standards.
 
 2.06    2011-08-18
