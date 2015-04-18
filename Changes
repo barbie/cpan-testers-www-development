@@ -4,6 +4,7 @@ Changes for the CPAN Testers Development website
         - added LICENSE, META.yml & META.json.
         - reworked Makefile.PL for clarity.
         - change file dates changed to meet W3CDTF standards.
+        - migrated script to official module.
 
 2.06    2011-08-18
         - revised banner logo image by Jon 'JJ' Allen.
