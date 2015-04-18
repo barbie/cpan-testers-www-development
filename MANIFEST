@@ -23,4 +23,5 @@ templates/images/layout/bg_main_withnav.jpg
 templates/images/layout/bg_main_withnav_reverse.jpg
 templates/images/layout/bg_main_withoutnav.jpg
 templates/index.html
+templates/quote.html
 META.yml                                 Module meta-data (added by MakeMaker)

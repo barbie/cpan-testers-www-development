@@ -1,5 +1,9 @@
 Changes for the CPAN Testers Development website
 
+2.03	14/01/2010
+	- added quote.html
+	- added Analysis to site family lists.
+
 2.02	18/07/2009
 	- added Release Summary database entry.
 	- added Reports Parser entry.
