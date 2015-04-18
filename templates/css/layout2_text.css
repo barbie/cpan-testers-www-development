@@ -72,6 +72,8 @@
 .main-content h2.side {clear:none;}
 .main-content h3.side {clear:none;}
 
+.main-content h2.rule {border-top: 1px solid; color:#20B2AA; padding-top: 10px;}
+
 .main-content h4 {margin:1.5em 0 1.0em 0; color:#20B2AA; font-family:"trebuchet ms",arial,sans-serif; font-style:italic; font-size:120%;}
 .main-content h5 {margin:1.5em 0 1.0em 0; color:#20B2AA; font-family:"trebuchet ms",arial,sans-serif; font-style:italic; font-size:110%;}
 .main-content h6 {margin:1.2em 0 0.2em 0; color:#20B2AA; font-weight:bold; font-size:100%;}

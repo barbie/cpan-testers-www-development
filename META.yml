@@ -1,21 +1,29 @@
 --- #YAML:1.0
-name:                cpandevel
-version:             2.03
-abstract:            CPAN Testers Development
-license:             ~
-author:              
+name:               cpandevel
+version:            2.04
+abstract:           CPAN Testers Development
+author:
     - Barbie <barbie@cpan.org>
-generated_by:        ExtUtils::MakeMaker version 6.42
-distribution_type:   module
-requires:     
-    Config::IniFiles:              0
-    File::Basename:                0
-    File::Copy:                    0
-    File::Path:                    0
-    Getopt::ArgvFile:              0
-    Getopt::Long:                  0
-    Number::Format:                0
-    Template:                      0
+license:            unknown
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Config::IniFiles:  0
+    File::Basename:    0
+    File::Copy:        0
+    File::Path:        0
+    Getopt::ArgvFile:  0
+    Getopt::Long:      0
+    Number::Format:    0
+    Template:          0
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.56
 meta-spec:
-    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
-    version: 1.3
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4

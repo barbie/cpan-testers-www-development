@@ -98,93 +98,201 @@ pageTracker._trackPageview();
       <div class="main-content">
 
         <!-- Pagetitle -->
-        <h1 class="pagetitle">Introduction</h1>
+        <h1 class="pagetitle">Development Tools</h1>
         <div class="column1-unit">
 
-          <h2>A brief introduction to the development site</h2>
+          <h2>A brief introduction</h2>
           <p>This site has been created to store the data files and additional tools used to create the CPAN Testers family of websites.</p>
           <p>Please note that although this site is dynamically generated, only the database file sizes are updated. The links below are generic, 
           and will access the appropriate files as they are updated.</p>
+          <p>If you have any suggestions for improving the codebase or wish to report any bugs, please use the relevant bug tracking systems
+          as referenced in the links below.</p>
 
-          <h1>CPAN Testers Statistics Database Generator</h1>
+          <h2 class="rule">Sections</h2>
+          <ul>
+          <li><a href="#smoker">Smoker Clients</a></li>
+          <li><a href="#metabase">Metabase Tools</a></li>
+          <li><a href="#database">Database Tools</a></li>
+          <li><a href="#website">Website Packages</a></li>
+          <li><a href="#common">Additional Packages</a></li>
+          </ul>
+
+          <a name="smoker"></a>
+          <h2 class="rule">Smoker Clients</h2>
+          <p>These are the downloads related to the CPAN Testers smoke testing clients. Two primary installation
+          tools exist, CPAN.pm and CPANPLUS, upon which two sets of tools are used to test distributions
+          uploaded to CPAN.</p>
+
+          <h3>CPAN Reporter Tools</h3>
+          <p>The following downloads relate to the tools built on the CPAN.pm installation tool.</p>
+          <ul>
+            <li><a href="http://search.cpan.org.dist/CPAN-Reporter">CPAN-Reporter</a> 
+                (<a href="http://github.com/dagolden/cpan-reporter">GitHub</a> / 
+                <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Reporter">RT Queue</a>)</li>
+            <li><a href="http://search.cpan.org.dist/CPAN-Reporter-Smoker">CPAN-Reporter-Smoker</a> 
+                (<a href="http://github.com/dagolden/cpan-reporter-smoker">GitHub</a> / 
+                <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Reporter-Smoker">RT Queue</a>)</li>
+            <li><a href="http://search.cpan.org.dist/CPAN-Reporter-Smoker-Safer">CPAN-Reporter-Smoker-Safer</a> 
+                (<a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Reporter-Smoker-Safer">RT Queue</a>)</li>
+            <li><a href="http://search.cpan.org.dist/POE-Component-CPAN-Reporter">POE-Component-CPAN-Reporter</a> 
+                (<a href="http://github.com/bingos/poe-component-cpan-reporter">GitHub</a> / 
+                <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=POE-Component-CPAN-Reporter">RT Queue</a>)</li>
+          </ul>
+
+          <h3>CPANPLUS YACSmoke Tools</h3>
+          <p>The following downloads relate to the tools built on the CPANPLUS installation tool.</p>
+          <ul>
+            <li><a href="http://search.cpan.org.dist/CPANPLUS-YACSmoke">CPANPLUS-YACSmoke</a> 
+                (<a href="http://github.com/bingos/cpan-reporter">GitHub</a> / 
+                <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPANPLUS-YACSmoke">RT Queue</a>)</li>
+            <li><a href="http://search.cpan.org.dist/POE-Component-CPAN-Reporter">POE-Component-CPANPLUS-YACSmoke</a> 
+                (<a href="http://github.com/bingos/poe-component-cpanplus-yacsmoke">GitHub</a> / 
+                <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=POE-Component-CPANPLUS-YACSmoke">RT Queue</a>)</li>
+            <li><a href="http://search.cpan.org.dist/POE-Component-SmokeBox">POE-Component-SmokeBox</a> 
+                (<a href="http://github.com/bingos/poe-component-smokebox">GitHub</a> / 
+                <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=POE-Component-SmokeBox">RT Queue</a>)</li>
+            <li><a href="http://search.cpan.org.dist/smokebrew">smokebrew</a> 
+                (<a href="http://github.com/bingos/smokebrew">GitHub</a> / 
+                <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=smokebrew">RT Queue</a>)</li>
+          </ul>
+
+          <h3>Common Smoker Client Packages</h3>
+          <p>The following downloads relate to the common libraries used by the smoke test clients.</p>
+          <ul>
+            <li><a href="http://search.cpan.org.dist/Test-Reporter">Test-Reporter</a> 
+                (<a href="http://github.com/dagolden/test-reporter">GitHub</a> / 
+                <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=Test-Reporter">RT Queue</a>)</li>
+          </ul>
+
+
+          <a name="metabase"></a>
+          <h2 class="rule">Metabase Tools</h2>
+          <h3>Metabase Server Packages</h3>
+          <p>The following downloads relate to the packages to access the Metabase server.</p>
+          <ul>
+            <li><a href="http://search.cpan.org.dist/Metabase">Metabase</a> 
+                (<a href="http://github.com/dagolden/metabase">GitHub</a> / 
+                <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=Metabase">RT Queue</a>)</li>
+            <li><a href="http://search.cpan.org.dist/CPAN-Testers-Metabase">CPAN-Testers-Metabase</a> 
+                (<a href="http://github.com/dagolden/cpan-testers-metabase">GitHub</a> / 
+                <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-Metabase">RT Queue</a>)</li>
+          </ul>
+
+          <h3>Metabase Client Packages</h3>
+          <p>The following downloads relate to the packages to submit reports to the Metabase server.</p>
+          <ul>
+            <li><a href="http://search.cpan.org.dist/Metabase-Client-Simple">Metabase-Client-Simple</a> 
+                (<a href="http://github.com/dagolden/metabase-client-simple">GitHub</a> / 
+                <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=Metabase-Client-Simple">RT Queue</a>)</li>
+          </ul>
+
+          <h3>Metabase Common Packages</h3>
+          <p>The following downloads relate to the packages used to define the contents of the Metabase (i.e. the facts).</p>
+          <ul>
+            <li><a href="http://search.cpan.org.dist/Metabase-Fact">Metabase-Fact</a> 
+                (<a href="http://github.com/dagolden/metabase-fact">GitHub</a> / 
+                <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=Metabase-Fact">RT Queue</a>)</li>
+            <li><a href="http://search.cpan.org.dist/CPAN-Testers-Report">CPAN-Testers-Report</a> 
+                (<a href="http://github.com/dagolden/cpan-testers-report">GitHub</a> / 
+                <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-Report">RT Queue</a>)</li>
+          </ul>
+
+          <a name="database"></a>
+          <h2 class="rule">Database Tools</h2>
+
+          <h3>CPAN Testers Statistics Database Generator</h3>
           <p>Downloads for the CPAN Testers 'cpanstats' database</p>
           <p>The following data files and tools are provided for use in building and expanding the data storage, used
           by the CPAN Testers family of websites, containing the reports metadata as posted to the cpan-testers
-          mailing list by the testers. If you have suggestions for improving the code or databases, please use the
-          <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-Data-Generator">RT queue</a>. 
-          Uncompressed size of the SQLite database is <b>[% CPANSTATSDB %]</b>.</p>
+          mailing list by the testers.</p>
           <ul>
-            <li><a href="http://search.cpan.org.dist/CPAN-Testers-Data-Generator">CPAN-Testers-Data-Generator</a> (<a href="https://github.com/barbie/cpan-testers-data-generator/tree">GitHub</a>)</li>
-            <li>Latest SQLite database: <a href="/cpanstats.db.gz">Gzip</a> (<b>[% CPANSTATSGZ %]</b>) / <a href="/cpanstats.db.bz2">Bzip2</a> (<b>[% CPANSTATSBZ %]</b>)</li>
+            <li><a href="http://search.cpan.org.dist/CPAN-Testers-Data-Generator">CPAN-Testers-Data-Generator</a> (<a href="https://github.com/barbie/cpan-testers-data-generator/tree">GitHub</a> / <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-Data-Generator">RT queue</a>)</li>
             <li><a href="http://search.cpan.org.dist/ORDB-CPANTesters">ORDB-CPANTesters</a></li>
           </ul>
 
-          <h1>CPAN Testers Upload Database Generator</h1>
+          <p>Uncompressed size of the SQLite database is <b>[% CPANSTATSDB %]</b>.</p>
+          <ul>
+            <li>Latest SQLite database: <a href="/cpanstats.db.gz">Gzip</a> (<b>[% CPANSTATSGZ %]</b>) / <a href="/cpanstats.db.bz2">Bzip2</a> (<b>[% CPANSTATSBZ %]</b>)</li>
+          </ul>
+
+          <h3>CPAN Testers Upload Database Generator</h3>
           <p>Downloads for the CPAN Testers 'uploads' database</p>
           <p>The following data files and tools are provided for use in building and expanding the data storage, used
           by the CPAN Testers family of websites, containing the uploads metadata as posted to the cpan-uploads
-          mailing list by PAUSE. If you have suggestions for improving the code or databases, please use the
-          <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-Data-Uploads">RT queue</a>. 
-          Uncompressed size of the SQLite database is <b>[% UPLOADSDB %]</b>.</p>
+          mailing list by PAUSE.</p>
           <ul>
-            <li><a href="http://search.cpan.org.dist/CPAN-Testers-Data-Uploads">CPAN-Testers-Data-Uploads</a> (<a href="https://github.com/barbie/cpan-testers-data-uploads/tree">GitHub</a>)</li>
-            <li>Latest SQLite database: <a href="/uploads/uploads.db.gz">Gzip</a> (<b>[% UPLOADSSQLGZ %]</b>) / <a href="/uploads/uploads.db.bz2">Bzip2</a> (<b>[% UPLOADSSQLBZ %]</b>)</li>
-            <li>Latest CSV database:    <a href="/uploads/uploads.csv.gz">Gzip</a> (<b>[% UPLOADSCSVGZ %]</b>) / <a href="/uploads/uploads.csv.bz2">Bzip2</a> (<b>[% UPLOADSCSVBZ %]</b>)</li>
+            <li><a href="http://search.cpan.org.dist/CPAN-Testers-Data-Uploads">CPAN-Testers-Data-Uploads</a> 
+            (<a href="https://github.com/barbie/cpan-testers-data-uploads/tree">GitHub</a> / 
+            <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-Data-Uploads">RT queue</a>)</li>
             <li><a href="http://search.cpan.org.dist/ORDB-CPANUploads">ORDB-CPANUploads</a></li>
           </ul>
 
-          <h1>CPAN Testers Release Summary Database Generator</h1>
+          <p>Uncompressed size of the SQLite database is <b>[% UPLOADSDB %]</b>.</p>
+          <ul>
+            <li>Latest SQLite database: <a href="/uploads/uploads.db.gz">Gzip</a> (<b>[% UPLOADSSQLGZ %]</b>) / <a href="/uploads/uploads.db.bz2">Bzip2</a> (<b>[% UPLOADSSQLBZ %]</b>)</li>
+            <li>Latest CSV database:    <a href="/uploads/uploads.csv.gz">Gzip</a> (<b>[% UPLOADSCSVGZ %]</b>) / <a href="/uploads/uploads.csv.bz2">Bzip2</a> (<b>[% UPLOADSCSVBZ %]</b>)</li>
+          </ul>
+
+          <h3>CPAN Testers Release Summary Database Generator</h3>
           <p>Downloads for the CPAN Testers 'release' database</p>
           <p>The following data files and tools are provided for use in building the data storage, used
-          by the CPAN Testers family of websites, containing the release summary metadata. If you have suggestions 
-          for improving the code or databases, please use the
-          <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-Data-Release">RT queue</a>. 
-          Uncompressed size of the SQLite database is <b>[% RELEASEDB %]</b>.</p>
+          by the CPAN Testers family of websites, containing the release summary metadata.</p>
           <ul>
-            <li><a href="http://search.cpan.org.dist/CPAN-Testers-Data-Release">CPAN-Testers-Data-Release</a> (<a href="https://github.com/barbie/CPAN-Testers-Data-Release/tree">GitHub</a>)</li>
-            <li>Latest SQLite database: <a href="/release/release.db.gz">Gzip</a> (<b>[% RELEASEGZ %]</b>) / <a href="/release/release.db.bz2">Bzip2</a> (<b>[% RELEASEBZ %]</b>)</li>
+            <li><a href="http://search.cpan.org.dist/CPAN-Testers-Data-Release">CPAN-Testers-Data-Release</a> 
+            (<a href="https://github.com/barbie/CPAN-Testers-Data-Release/tree">GitHub</a> / 
+            <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-Data-Release">RT queue</a>)</li>
             <li><a href="http://search.cpan.org.dist/ORDB-CPANRelease">ORDB-CPANRelease</a></li>
           </ul>
 
-          <h1>CPAN Testers Statistics</h1>
-          <p>Downloads for the CPAN Testers Statistics website</p>
-          <p>The following data files and tools are provided for use in building and expanding the website. If you have
-          suggestions for improving the website, please use the
-          <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-WWW-Statistics">RT queue</a>.</p>
+          <p>Uncompressed size of the SQLite database is <b>[% RELEASEDB %]</b>.</p>
           <ul>
-            <li><a href="http://search.cpan.org.dist/CPAN-Testers-WWW-Statistics">CPAN-Testers-WWW-Statistics</a> (<a href="https://github.com/barbie/cpan-testers-www-statistics/tree">GitHub</a>)</li>
+            <li>Latest SQLite database: <a href="/release/release.db.gz">Gzip</a> (<b>[% RELEASEGZ %]</b>) / <a href="/release/release.db.bz2">Bzip2</a> (<b>[% RELEASEBZ %]</b>)</li>
+          </ul>
+
+          <a name="website"></a>
+          <h2 class="rule">Website Packages</h2>
+
+          <h3>CPAN Testers Statistics</h3>
+          <p>Downloads for the CPAN Testers Statistics website</p>
+          <p>The following data files and tools are provided for use in building and expanding the website.</p>
+          <ul>
+            <li><a href="http://search.cpan.org.dist/CPAN-Testers-WWW-Statistics">CPAN-Testers-WWW-Statistics</a> 
+            (<a href="https://github.com/barbie/cpan-testers-www-statistics/tree">GitHub</a> / 
+            <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-WWW-Statistics">RT queue</a>)</li>
             <li><a href="/cpanstats-data-latest.tar.gz">cpanstats-data-latest.tar.gz</a></li>
           </ul>
 
-          <h1>CPAN Testers Reports</h1>
+          <h3>CPAN Testers Reports</h3>
           <p>Downloads for the CPAN Testers Reports website</p>
           <p>The following data files and tools were used in building and expanding the old Reports website. The code
           for building the current website is not currently available. This will change as soon as I have time to
-          properly package all the moving parts. However, if you have suggestions for improving the website, please use the
-          <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-WWW-Testers">RT queue</a>.</p>
+          properly package all the moving parts.</p>
           <ul>
-            <li><a href="http://search.cpan.org.dist/CPAN-WWW-Testers">CPAN-WWW-Testers</a> (<a href="https://github.com/barbie/cpan-www-testers/tree">GitHub</a>)</li>
+            <li>CPAN-Testers-WWW-Reports (GitHub / RT queue) .. coming soon</li>
           </ul>
 
-          <h1>CPAN Testers Reports Parser</h1>
+          <h3>CPAN Testers Reports Parser</h3>
           <p>Downloads for the CPAN Testers reports data parser</p>
-          <p>The following data files and tools are used to parse the YAML and JSON files stored on the Reports website.
-          If you have suggestions for improving the code, please use the
-          <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-WWW-Reports-Parser">RT queue</a>.</p>
+          <p>The following data files and tools are used to parse the YAML and JSON files stored on the Reports website.</p>
           <ul>
-            <li><a href="http://search.cpan.org.dist/CPAN-Testers-WWW-Reports-Parser">CPAN-Testers-WWW-Reports-Parser</a> (<a href="https://github.com/barbie/CPAN-Testers-WWW-Reports-Parser/tree">GitHub</a>)</li>
+            <li><a href="http://search.cpan.org.dist/CPAN-Testers-WWW-Reports-Parser">CPAN-Testers-WWW-Reports-Parser</a> 
+            (<a href="https://github.com/barbie/CPAN-Testers-WWW-Reports-Parser/tree">GitHub</a> / 
+            <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-WWW-Reports-Parser">RT queue</a>)</li>
           </ul>
 
-          <h1>CPAN Testers Reports Mailer</h1>
+          <h3>CPAN Testers Reports Mailer</h3>
           <p>Downloads for the CPAN Testers reports summary mailer</p>
-          <p>The following data files and tools are used to parse the reports data and mail the summaries to authors.
-          If you have suggestions for improving the code, please use the
-          <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-WWW-Reports-Mailer">RT queue</a>.</p>
+          <p>The following data files and tools are used to parse the reports data and mail the summaries to authors.</p>
           <ul>
-            <li><a href="http://search.cpan.org.dist/CPAN-Testers-WWW-Reports-Mailer">CPAN-Testers-WWW-Reports-Mailer</a> (<a href="https://github.com/barbie/CPAN-Testers-WWW-Reports-Mailer/tree">GitHub</a>)</li>
+            <li><a href="http://search.cpan.org.dist/CPAN-Testers-WWW-Reports-Mailer">CPAN-Testers-WWW-Reports-Mailer</a> 
+            (<a href="https://github.com/barbie/CPAN-Testers-WWW-Reports-Mailer/tree">GitHub</a> / 
+            <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-WWW-Reports-Mailer">RT queue</a>)</li>
           </ul>
 
-          <h1>CPAN Testers Common Code</h1>
+          <a name="common"></a>
+          <h2 class="rule">Additional Packages</h2>
+
+          <h3>CPAN Testers Common Code</h3>
           <p>Downloads for commonly used code required by the CPAN Testers applications listed above</p>
           <p>The following package files are provided for use in building and expanding the CPAN Testers code base. If you have
           suggestions for improving the codebase, please use the respective bug trackers listed below.</p>
@@ -193,6 +301,8 @@ pageTracker._trackPageview();
                 <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-Common-Article">RT queue</a></li>
             <li><a href="http://search.cpan.org.dist/CPAN-Testers-Common-DBUtils">CPAN-Testers-Common-DBUtils</a> (<a href="http://github.com/barbie/cpan-testers-common-dbutils/tree">GitHub</a>) -
                 <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-Common-DBUtils">RT queue</a></li>
+            <li><a href="http://search.cpan.org.dist/CPAN-Testers-Common-Utils">CPAN-Testers-Common-Utils</a> (<a href="http://github.com/dagolden/cpan-testers-common-utils/tree">GitHub</a>) -
+                <a href="http://rt.cpan.org/Public/Dist/Display.html?Name=CPAN-Testers-Common-Utils">RT queue</a></li>
           </ul>
  
         </div>
