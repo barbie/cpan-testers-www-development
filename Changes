@@ -3,6 +3,7 @@ Changes for the CPAN Testers Development website
 
         - paths updated for github, and switches from s.p.o to metacpan.
         - removed link references to cpanstats SQLite database.
+        - Preferences and Development links updated.
 
 2.07    2015-04-18
         - added LICENSE, META.yml & META.json.
