@@ -6,6 +6,7 @@ Changes for the CPAN Testers Development website
         - change file dates changed to meet W3CDTF standards.
         - migrated script to official module.
         - added CPAN Testers Admin family site links.
+        - added test suite.
 
 2.06    2011-08-18
         - revised banner logo image by Jon 'JJ' Allen.
