@@ -1,7 +1,7 @@
 Changes for the CPAN Testers Development website
 ================================================
 
-2.08    2015-04-18
+2.08    2015-04-19
         - paths updated for github, and switches from s.p.o to metacpan.
         - removed link references to cpanstats SQLite database.
         - Preferences and Development links updated.
