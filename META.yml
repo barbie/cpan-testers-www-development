@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                     CPAN-Testers-WWW-Development
-version:                  2.10
+version:                  2.11
 abstract:                 The CPAN Testers Development website
 author:
   - Barbie <barbie@cpan.org>  
@@ -32,7 +32,7 @@ build_requires:
 provides:
   CPAN::Testers::WWW::Development:
     file:     lib/CPAN/Testers/WWW/Development.pm
-    version:  2.10
+    version:  2.11
 
 no_index:
   directory:
