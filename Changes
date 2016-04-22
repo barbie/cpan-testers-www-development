@@ -1,6 +1,11 @@
 Changes for the CPAN Testers Development website
 ================================================
 
+2.10    2016-04-22
+        - removed Birmingham.pm from footer.
+        - added sponsors block in side panel.
+        - added README.
+
 2.09    2015-04-19
         - added Reports links.
         - removed /tree from GitHub links.

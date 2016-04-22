@@ -5,7 +5,7 @@ use strict;
 
 $|++;
 
-our $VERSION = '2.09';
+our $VERSION = '2.10';
 
 #----------------------------------------------------------------------------
 
@@ -267,7 +267,7 @@ Miss Barbell Productions, L<http://www.missbarbell.co.uk/>
 
 =head1 COPYRIGHT & LICENSE
 
-  Copyright (C) 2008-2015 Barbie for Miss Barbell Productions
+  Copyright (C) 2008-2016 Barbie for Miss Barbell Productions
   All Rights Reserved.
 
   This module is free software; you can redistribute it and/or
